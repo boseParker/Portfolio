@@ -1,8 +1,9 @@
 
 import { Link } from 'react-router-dom';
-
-function Navbar2() {
+import Footer from './footer';
+function Navbar() {
   return (
+    <div className=''>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3 ">
       <div className="container-fluid">
         <button
@@ -12,8 +13,7 @@ function Navbar2() {
           data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -43,11 +43,15 @@ function Navbar2() {
                 Contact
               </Link>
             </li>
+            <li className='nav-item'>
+              <Footer/>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+    </div>
   );
 }
 
-export default Navbar2;
+export default Navbar;

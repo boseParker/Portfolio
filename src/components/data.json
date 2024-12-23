@@ -1,0 +1,25 @@
+{
+    "projects":[
+        {
+            "title":"Calculator",
+            "description":" A fully functional calculator app built by using HTML, CSS, and JavaScript.",
+            "features":" Supports basic arithmetic operations (addition, subtraction, multiplication, division) with a user-friendly interface.",
+            "img":"CalculatorApp.png"
+
+        },
+        {
+            "title":"TODO List",
+            "description":" A simple Powerfull task management application developed using ReactJS.",
+            "features":"Add, edit, and delete tasks with real-time updates and a clean, user-friendly interface.",
+            "img":"TodoApp.png"
+
+        },
+        {
+            "title":"Ola Clone",
+            "description":" A visually appealing clone of the Ola webpage designed using HTML and CSS.",
+            "features":" Static page replicating the layout, design elements, and styling of the original Ola website.",
+            "img":"OlaApp.png"
+
+        }
+    ]
+}

@@ -1,13 +1,21 @@
-// import Navbar from "./navbar";
-// import Navbar from './navbar1';
+import Navbar1 from './navbar'
 import Navbar from "./navbar3";
 import resume from '../images/resume.pdf'
 function Resume(){
     return(
-        <div className="">
+        <div className="d-sm-flex">
+               <section className='col-xl-3 col-sm-4 col-12 '>
+            <div className='d-none d-sm-block position-sticky top-0 start-0 bottom-0'>
+            <Navbar1/>
+            </div>
+            <div className='d-block d-sm-none'>
+                <Navbar/>
+            </div>
+        
+         </section>
 
-       <Navbar/>
-        <section class="right-side-content container-fluid  pb-5" >
+       
+        <section class="right-side-content container-fluid  col-12 col-xl-9 col-sm-8 pb-5" >
            <div class="row mt-5 d-flex gap-4" >
                 <div class="cv_section ps-5 pb-5">
                     <h1>Resume</h1>
@@ -18,13 +26,13 @@ function Resume(){
                 </div>
                 <div class="education row  border  p-sm-4 col-10 m-auto d-flex flex-wrap flex-column flex-sm-row  align-items-sm-center justify-content-between">
                     <p class="fw-light fs-3">Education :</p>
-                    <div class="col-sm-4 ps-sm-5 ">
+                    <div class=" col-12  col-lg-5 ps-sm-5 pb-4">
                         <p class="fs-sm-3 fw-bold">2021 - 2024</p>
                         <p class="fs-sm-5 fw-bold">Periyar University</p>
                         <p class=" fs-sm-5 fw-bold">Bachelor Degree</p>
                     </div>
-                    <div class="col-7">
-                        <p className="fs-sm-5">I successfully completed my Bachelor's degree in Computer Science at Periyar University from 2021 to 2024, achieving a CGPA of 7.45. Throughout my academic journey, I built a strong foundation in core computer science concepts, honed my problem-solving skills, and gained hands-on experience in programming, software development, and web technologies. My coursework and projects reflect my dedication to applying theoretical knowledge to real-world challenges.</p>
+                    <div class="col-12  col-lg-7">
+                        <p className="fs-sm-5 ">I successfully completed my Bachelor's degree in Computer Science at Periyar University from 2021 to 2024, achieving a CGPA of 7.45. Throughout my academic journey, I built a strong foundation in core computer science concepts, honed my problem-solving skills, and gained hands-on experience in programming, software development, and web technologies. My coursework and projects reflect my dedication to applying theoretical knowledge to real-world challenges.</p>
                     </div>
                 </div>
                 <div class="col-10 border  p-sm-5 p-3 m-auto">
