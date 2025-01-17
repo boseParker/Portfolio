@@ -4,21 +4,32 @@
             "title":"Calculator",
             "description":" A fully functional calculator app built by using HTML, CSS, and JavaScript.",
             "features":" Supports basic arithmetic operations (addition, subtraction, multiplication, division) with a user-friendly interface.",
-            "img":"CalculatorApp.png"
+            "img":"CalculatorApp.png",
+            "link":"https://mycalculator22nov.netlify.app"
 
         },
         {
             "title":"TODO List",
             "description":" A simple Powerfull task management application developed using ReactJS.",
             "features":"Add, edit, and delete tasks with real-time updates and a clean, user-friendly interface.",
-            "img":"TodoApp.png"
+            "img":"TodoApp.png",
+            "link":"https://todo22nov.netlify.app"
 
+        },
+      
+        {
+            "title":"Brutus kitchen",
+            "description":"Built a dynamic food ordering website with an engaging user interface and seamless performance.",
+            "features":" item selection, and responsive design.",
+            "img":"brutusKitchen.png",
+            "link":"https://brutus.netlify.app/"
         },
         {
             "title":"Ola Clone",
             "description":" A visually appealing clone of the Ola webpage designed using HTML and CSS.",
             "features":" Static page replicating the layout, design elements, and styling of the original Ola website.",
-            "img":"OlaApp.png"
+            "img":"OlaApp.png",
+            "link":""
 
         }
     ]

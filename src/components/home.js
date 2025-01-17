@@ -6,16 +6,16 @@ import Footer from './footer';
 function Home(){
 
     const a=["Fullstack Developer","Front-end Developer"]
-    const [data,setData]=useState(0)
+    const [data,setData]=useState(1)
     const[i,setI]=useState(0)
     setInterval(()=>{
        setI(Math.floor(Math.random()*2))
-    },10000)
+    },1000)
    
     
     useEffect(()=>{
         setData(a[i])
-    },[i])
+    },[1])
 
     return(
         <div className="d-sm-flex">
