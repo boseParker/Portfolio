@@ -41,7 +41,8 @@ function About(){
                         <div class="set-2 d-flex flex-column gap-3 fs-4">
                             <li><i class="bi bi-chevron-right "></i><strong>Degree:</strong> <span>Bachelor of Computer Science</span></li>
                             <li><i class="bi bi-chevron-right "></i><strong>Email:</strong> <span>bosemuthu01@gamil.com</span></li>
-                            {/* <li><i class="bi bi-chevron-right "></i><strong>Freelance:</strong> <span>Available</span></li> */}
+                            {/* <li><i class="bi bi-chevron-right "></i><strong>Freelance:</strong> <span>Available</span></li>npm install --save-dev @babel/plugin-proposal-private-property-in-object
+ */}
                             <li><i class="bi bi-chevron-right "></i><strong>City:</strong> <span>Coimabtore,Tamilnadu</span></li>
                         </div>
                       

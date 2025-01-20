@@ -2,14 +2,15 @@ import { useState,useEffect } from 'react';
 import bgRemove from '../images/bgREmove.png'
 import Navbar from './navbar3'
 import Navbar1 from './navbar'
-import Footer from './footer';
+// import Footer from './footer';npm run build
+
 function Home(){
 
     const a=["Fullstack Developer","Front-end Developer"]
     const [data,setData]=useState()
     const[i,setI]=useState(0)
     setInterval(()=>{
-    //    setI(Math.floor(Math.random()*2))
+  
         if(data==a[0]){
             setI(1)
         }
