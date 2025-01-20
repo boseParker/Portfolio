@@ -1,5 +1,5 @@
 import { Link} from "react-router-dom";
-import bm from '../images/full.JPG'
+import bm from '../images/full.jpg'
 
 
 function Navbar(){
