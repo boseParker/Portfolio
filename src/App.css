@@ -7,21 +7,24 @@
   height: 100vh;
   background-color:rgb(16, 16, 52);
   color: white;
-
-
 }
-
 .overall-container a{
   text-decoration: none;
   color:white;
 }
-
 .my-img {
   height: 90vh;
   padding:0%;
 
 }
-.intro-content p{
+.intro-content p:nth-child(1){
+  position: fixed;
+  right: 18%;
+}
+.intro-content p:nth-child(2){
+  margin-top: 2.5rem;
+}
+.intro-content {
   position: absolute;
   right:10%
  }
@@ -54,6 +57,30 @@ h2::after{
 .skills{
   width: 50vw;
   height: 15px;
+}
+/* Resume  */
+.resume-title{
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resume-body p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  background-color: rgb(138, 106, 255);
+  border-radius: 20px;
+  height: 100px;
+  width: 40vw;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.resume-body p:hover{
+  background-color: aqua;
 }
 .client-data input{
   outline: none;
@@ -126,9 +153,15 @@ ul li{
   .conatct-form{
     width: 60vw;
   }
-  .intro-content p{
+  .intro-content p:nth-child(1){
+    position: fixed;
+    right: 18%;
+    bottom: 15%;
+  }
+  .intro-content {
    position: absolute;
-   right:8%
+   right:8%;
+   bottom: 10%;
   }
   .skill div img{
     height: 150px;
@@ -156,12 +189,21 @@ ul li{
     position: relative;
     
   }
+  .intro-content p:nth-child(1){
+    position: fixed;
+    right: 28%;
+    bottom: 15%;
+  }
   .intro-content{
     position :absolute;
-    bottom: 30%;
-    left: 0;
-    right: 0;
+    bottom: 10%;
+    /* left: 0; */
+    right: 10%;
 
+  }
+  /* resume */
+  .resume-body p{
+    width: 90vw;
   }
   .set-1 li,.set-2 li{
     font-size: 16px;

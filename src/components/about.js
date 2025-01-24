@@ -23,27 +23,26 @@ function About(){
          </section>
         
         
-        <section class="right-side-content container-fluid d-flex flex-column col-12 col-xl-9 col-sm-8 gap-5 pb-5 ps-sm-5 ps-3">
-            <div class="about  mt-3" id="about">
+        <section className="right-side-content container-fluid d-flex flex-column col-12 col-xl-9 col-sm-8 gap-5 pb-5 ps-sm-5 ps-3">
+            <div className="about  mt-3" id="about">
                 <h2>About</h2>
               
                  <p>I'm a passionate Web Developer skilled in crafting responsive and user-friendly websites. I specialize in HTML, CSS, JavaScript, and Python Fullstack development, creating projects that combine functionality with modern design. Always eager to learn and grow, I aim to build impactful digital experiences.</p>
-            <div class="about-my-details container pt-5 ">
-                    <h3 class="pb-5">Web Developer</h3>
-                <div class="personal-detalis d-flex flex-wrap align-items-center justify-content-around justify-content-sm-start gap-5 ">
+            <div className="about-my-details container pt-5 ">
+                    <h3 className="pb-5">Web Developer</h3>
+                <div className="personal-detalis d-flex flex-wrap align-items-center justify-content-around justify-content-sm-start gap-5 ">
                   
-                    <div class="about-my-img" >
+                    <div className="about-my-img" >
                         <img src={fullimage} width="290px" height="450px"  alt="" style={{borderRadius:"50%"}}/>
                     </div>
                   
                      
                         
-                        <div class="set-2 d-flex flex-column gap-3 fs-4">
-                            <li><i class="bi bi-chevron-right "></i><strong>Degree:</strong> <span>Bachelor of Computer Science</span></li>
-                            <li><i class="bi bi-chevron-right "></i><strong>Email:</strong> <span>bosemuthu01@gamil.com</span></li>
-                            {/* <li><i class="bi bi-chevron-right "></i><strong>Freelance:</strong> <span>Available</span></li>npm install --save-dev @babel/plugin-proposal-private-property-in-object
- */}
-                            <li><i class="bi bi-chevron-right "></i><strong>City:</strong> <span>Coimabtore,Tamilnadu</span></li>
+                        <div className="set-2 d-flex flex-column gap-3 fs-4">
+                            <li><i className="bi bi-chevron-right "></i><strong>Degree:</strong> <span>Bachelor of Computer Science</span></li>
+                            <li><i className="bi bi-chevron-right "></i><strong>Email:</strong> <span>bosemuthu01@gamil.com</span></li>
+                            <li><i className="bi bi-chevron-right "></i><strong>Freelance:</strong> <span>Available</span></li>
+                            <li><i className="bi bi-chevron-right "></i><strong>City:</strong> <span>Namakkal,Tamilnadu</span></li>
                         </div>
                       
                 
@@ -53,49 +52,49 @@ function About(){
          </div>
 
          {/* skills  */}
-         <div class="container mt-lg-5 pt-lg-5 ps-lg-5">
-            <h2 class="">Skills</h2>
-             <div class="d-flex flex-wrap justify-content-around gap-5 flex-basis mt-5 ">
-                <div class="skill d-flex flex-column align-items-center ">
+         <div className="container mt-lg-5 pt-lg-5 ps-lg-5">
+            <h2 className="">Skills</h2>
+             <div className="d-flex flex-wrap justify-content-around gap-5 flex-basis mt-5 ">
+                <div className="skill d-flex flex-column align-items-center ">
                     <div>
                         <img src={Html} height={"200px"} width={"200px"}/>
                     </div>
-                   <p class="d-flex justify-content-between"><span>HTML</span></p>
+                   <p className="d-flex justify-content-between"><span>HTML</span></p>
                  
                 </div>
-                <div class="skill d-flex flex-column align-items-center ">
+                <div className="skill d-flex flex-column align-items-center ">
                     <div>
                         <img src={Css} height={"200px"} width={"200px"}/>
                     </div>
-                   <p class="d-flex justify-content-between"><span>CSS</span></p>
+                   <p className="d-flex justify-content-between"><span>CSS</span></p>
                  
                 </div>
-                <div class="skill d-flex flex-column align-items-center ">
+                <div className="skill d-flex flex-column align-items-center ">
                 <div>
                         <img src={Js} height={"200px"} width={"200px"}/>
                     </div>
-                   <p class="d-flex justify-content-between"><span>JAVASCRIPT</span></p>
+                   <p className="d-flex justify-content-between"><span>JAVASCRIPT</span></p>
                   
                 </div>
-                <div class="skill d-flex flex-column align-items-center ">
+                <div className="skill d-flex flex-column align-items-center ">
                 <div>
                         <img src={Bootstrapimg} height={"200px"} width={"200px"}/>
                     </div>
-                   <p class="d-flex justify-content-between"><span>BOOTSTRAP</span></p>
+                   <p className="d-flex justify-content-between"><span>BOOTSTRAP</span></p>
 
                 </div>
-                <div class="skill d-flex flex-column align-items-center ">
+                <div className="skill d-flex flex-column align-items-center ">
                 <div>
                         <img src={ReactImg} height={"200px"} width={"200px"}/>
                     </div>
-                   <p class="d-flex justify-content-between"><span>REACT</span></p>
+                   <p className="d-flex justify-content-between"><span>REACT</span></p>
                    
                 </div>
-                <div class="skill d-flex flex-column align-items-center ">
+                <div className="skill d-flex flex-column align-items-center ">
                 <div>
                         <img src={PythonImg} height={"200px"} width={"200px"}/>
                     </div>
-                   <p class="d-flex justify-content-between"><span>PYTHON(Basics)</span></p>
+                   <p className="d-flex justify-content-between"><span>PYTHON(Basics)</span></p>
                  
                 </div>
              </div>

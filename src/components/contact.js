@@ -59,31 +59,31 @@ function Contact(){
                 <Navbar/>
             </div>
             </section>
-        <section class="container-fluid pb-5 col-12 col-xl-9 col-sm-8 " >
-            <div class="contact d-flex flex-column align-items-center justify-content-center gap-3 " id="contact">
-                <div class="">
-                    <p class="fs-4" >Let's Talk</p>
+        <section className="container-fluid pb-5 col-12 col-xl-9 col-sm-8 " >
+            <div className="contact d-flex flex-column align-items-center justify-content-center gap-3 " id="contact">
+                <div>
+                    <p className="fs-4" >Let's Talk</p>
                 </div>
-                <div class="conatct-form  container-fluid" >
+                <div className="conatct-form  container-fluid" >
                     <form action="#" id="details" onSubmit={handlesubmit}>
-                        <div class="client-data d-flex flex-column">
-                            <label for="fName">FullName </label>
+                        <div className="client-data d-flex flex-column">
+                            <label htmlFor="fName">FullName </label>
                             <input type="text" required value={mailDetails.name} name="name" id="fname" onChange={handleDeatils} autoComplete="off" />
                         </div>
                         <br/>
-                      <div class="client-data d-flex flex-column">
-                            <label for="eMail">Email </label>
+                      <div className="client-data d-flex flex-column">
+                            <label htmlFor="eMail">Email </label>
                             <input type="email" required value={mailDetails.email} name="email" id="email" onChange={handleDeatils} autoComplete="off"/>
                       </div>
                       <br/>
                     
-                      <div class="client-data d-flex flex-column">
-                            <label for="message">Message </label>
+                      <div className="client-data d-flex flex-column">
+                            <label htmlFor="message">Message </label>
                             <input type="text" required value={mailDetails.message} name="message" id="message" onChange={handleDeatils} autoComplete="off"/>
                       </div>
                       <br/>  
-                      <div class="sendbtn">
-                      <button class="sendbtn ps-4 pe-4 pt-2 pb-2 fs-5 mt-5 rounded fw-bold">Send Message</button>
+                      <div className="sendbtn">
+                      <button className="sendbtn ps-4 pe-4 pt-2 pb-2 fs-5 mt-5 rounded fw-bold">Send Message</button>
                       </div>
 
                     </form>

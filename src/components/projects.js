@@ -20,20 +20,20 @@ function Project(){
         </div>
         <div className="project-section d-flex flex-wrap justify-content-center gap-5">
             {
-                ProjectData.projects.map((data)=>{
+                ProjectData.projects.map((data,index)=>{
                     return(
-                        <div class="card p-2 d-flex align-items-center " style={{width: "19rem"}}>
+                        <div className="card p-2 d-flex align-items-center " key={index} style={{width: "19rem"}}>
                             
-                                    <img src={`/images/${data.img}`} style={{width:"250px",height:"200px"}} class="card-img-top border-bottom border-2 " alt="..."/>
+                                    <img src={`/images/${data.img}`} style={{width:"250px",height:"200px"}} className="card-img-top border-bottom border-2 " alt="..."/>
                             
                        
-                        <div class="card-body pt-3">
-                            <h5 class="card-title">{data.title}</h5>
-                            <p class="card-text"><strong>Description:</strong>{data.description}
+                        <div className="card-body pt-3">
+                            <h5 className="card-title">{data.title}</h5>
+                            <p className="card-text"><strong>Description:</strong>{data.description}
                             </p>
-                            <p class="card-text"><strong>Features:</strong> {data.features}
+                            <p className="card-text"><strong>Features:</strong> {data.features}
                             </p>
-                            <a href={data.link} target="_blank" class="btn btn-primary">Live Demo</a>
+                            <a href={data.link} target="_blank" className="btn btn-primary">Live Demo</a>
                         </div>
                     </div>
                     )
