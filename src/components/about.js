@@ -57,42 +57,42 @@ function About(){
              <div className="d-flex flex-wrap justify-content-around gap-5 flex-basis mt-5 ">
                 <div className="skill d-flex flex-column align-items-center ">
                     <div>
-                        <img src={Html} height={"200px"} width={"200px"}/>
+                        <img src={Html} height={"200px"} width={"200px"} alt='html'/>
                     </div>
                    <p className="d-flex justify-content-between"><span>HTML</span></p>
                  
                 </div>
                 <div className="skill d-flex flex-column align-items-center ">
                     <div>
-                        <img src={Css} height={"200px"} width={"200px"}/>
+                        <img src={Css} height={"200px"} width={"200px"} alt='css'/>
                     </div>
                    <p className="d-flex justify-content-between"><span>CSS</span></p>
                  
                 </div>
                 <div className="skill d-flex flex-column align-items-center ">
                 <div>
-                        <img src={Js} height={"200px"} width={"200px"}/>
+                        <img src={Js} height={"200px"} width={"200px"} alt='js'/>
                     </div>
                    <p className="d-flex justify-content-between"><span>JAVASCRIPT</span></p>
                   
                 </div>
                 <div className="skill d-flex flex-column align-items-center ">
                 <div>
-                        <img src={Bootstrapimg} height={"200px"} width={"200px"}/>
+                        <img src={Bootstrapimg} height={"200px"} width={"200px"} alt='bootstrap'/>
                     </div>
                    <p className="d-flex justify-content-between"><span>BOOTSTRAP</span></p>
 
                 </div>
                 <div className="skill d-flex flex-column align-items-center ">
                 <div>
-                        <img src={ReactImg} height={"200px"} width={"200px"}/>
+                        <img src={ReactImg} height={"200px"} width={"200px"} alt='reactJs'/>
                     </div>
                    <p className="d-flex justify-content-between"><span>REACT</span></p>
                    
                 </div>
                 <div className="skill d-flex flex-column align-items-center ">
                 <div>
-                        <img src={PythonImg} height={"200px"} width={"200px"}/>
+                        <img src={PythonImg} height={"200px"} width={"200px"} alt='python'/>
                     </div>
                    <p className="d-flex justify-content-between"><span>PYTHON(Basics)</span></p>
                  

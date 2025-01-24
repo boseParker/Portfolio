@@ -24,7 +24,7 @@ function Project(){
                     return(
                         <div className="card p-2 d-flex align-items-center " key={index} style={{width: "19rem"}}>
                             
-                                    <img src={`/images/${data.img}`} style={{width:"250px",height:"200px"}} className="card-img-top border-bottom border-2 " alt="..."/>
+                                    <img src={`/images/${data.img}`} style={{width:"250px",height:"200px"}} className="card-img-top border-bottom border-2 " alt={data.title}/>
                             
                        
                         <div className="card-body pt-3">
@@ -34,6 +34,7 @@ function Project(){
                             <p className="card-text"><strong>Features:</strong> {data.features}
                             </p>
                             <a href={data.link} target="_blank" className="btn btn-primary">Live Demo</a>
+                            
                         </div>
                     </div>
                     )

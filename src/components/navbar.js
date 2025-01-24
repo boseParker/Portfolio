@@ -6,7 +6,7 @@ function Navbar(){
     return(<>
         <section className="left-side-content container ">
             <div className="left-box-top  d-flex flex-column align-items-center gap-3  p-sm-3  ">
-                <img src={bm} width="100px" height="100px"  className="rounded-pill border border-5 border-secondary" />
+                <img src={bm} width="100px" height="100px" alt="Bm image"  className="rounded-pill border border-5 border-secondary" />
                 <h3 className="fs-4 ">Bose M</h3>
                 <div className="contact-icons d-flex gap-lg-5 gap-sm-4 ">
                     <a href="mailto:bosem3708@gmail.com" target="_blank"><i className="bi bi-envelope fs-3 text-light"></i></a>
