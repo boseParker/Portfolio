@@ -1,6 +1,6 @@
 import Navbar from './navbar3';
 import Navbar1 from './navbar'
-import fullimage from '../images/full.jpg'
+import fullimage from '../../src/images/full.jpg'
 import Html from '../images/html.png'
 import Css from '../images/css.png'
 import Js from '../images/js.png'
