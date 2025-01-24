@@ -1,5 +1,5 @@
-import { useTypewriter, Cursor } from "react-simple-typewriter";
-import bgRemove from '../images/bgREmove.png'
+import { useTypewriter } from "react-simple-typewriter";
+import bgRemove from '../../src/images/bgREmove.png'
 import Navbar from './navbar3'
 import Navbar1 from './navbar'
 
@@ -28,7 +28,7 @@ function Home(){
          
                 <div className="img-container  d-flex flex-column flex-sm-row  justify-content-start align-items-center "style={{paddingTop:"75px"}} >
                 <div className="my-img " >
-                    <img src={bgRemove} style={{width:"100%",height:"100%"}} />
+                    <img src={bgRemove} style={{width:"100%",height:"100%"}} alt="bgremove" />
                 </div>
                 <div className='intro-content fs-2 text-light fst-italic fw-bold d-flex flex-column justify-content-between '>
                 <p><span className='text-danger pe-1'>I'm </span> <span>Bose </span></p> 

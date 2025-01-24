@@ -33,7 +33,7 @@ function Project(){
                             </p>
                             <p className="card-text"><strong>Features:</strong> {data.features}
                             </p>
-                            <a href={data.link} target="_blank" className="btn btn-primary">Live Demo</a>
+                            <a href={data.link} target="_blank" className="btn btn-primary" rel="noopener noreferrer">Live Demo</a>
                             
                         </div>
                     </div>

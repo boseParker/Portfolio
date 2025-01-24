@@ -20,7 +20,6 @@ function Contact(){
     }
     const handlesubmit=(e)=>{
         e.preventDefault()
-        // console.log(mailDetails)
         emailjs
         .send(
             "service_6mmby36",
