@@ -3,6 +3,9 @@
   padding: 0%;
   box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 .left-side-content{
   height: 100vh;
   background-color:rgb(16, 16, 52);
@@ -51,9 +54,7 @@ h2::after{
   left: 0%;
 
 }
-.cv-download-section h2:after{
-  display: none;
-}
+
 .skills{
   width: 50vw;
   height: 15px;
@@ -70,8 +71,8 @@ h2::after{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  word-wrap: break-word;
-  background-color: rgb(138, 106, 255);
+  background-color: rgb(42, 42, 249);
+  color: whitesmoke;
   border-radius: 20px;
   height: 100px;
   width: 40vw;
@@ -80,14 +81,16 @@ h2::after{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .resume-body p:hover{
-  background-color: aqua;
+  background-color: grey;
 }
-.client-data input{
+.client-data input ,textarea{
   outline: none;
   border: none;
   padding: 10px 10px ;
   width: 100%;
   background-color: transparent;
+  border: 0.5px solid black;
+  border-radius: 10px;
 
 }
 .client-data input:active{
@@ -100,23 +103,6 @@ h2::after{
   content: " *";
   color: red;
 }
-.client-data {
-  position: relative;
-  display: inline-block;
-}
-.client-data:after{
-  content: ' ';
-  display: block;
-  height: 0.6px;
-  width: 100%;
-  background-color: black;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-
-
-
-}
 .left-box-bottom a{
   text-decoration: none;
   color: white;
@@ -125,17 +111,10 @@ a{
   text-decoration: none ;
 }
 
-.form-right-side-content{
-  background-color: rgb(156, 156, 250);
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 .conatct-form{
-  
-  background-color: aliceblue;
+  background-color:whitesmoke;
   width: 50vw;
- 
+  border-radius: 20px;
   padding: 30px 50px;
 }
 
@@ -156,12 +135,12 @@ ul li{
   .intro-content p:nth-child(1){
     position: fixed;
     right: 18%;
-    bottom: 15%;
+    bottom: 20%;
   }
   .intro-content {
-   position: absolute;
+   position: fixed;
    right:8%;
-   bottom: 10%;
+   bottom: 12%;
   }
   .skill div img{
     height: 150px;
@@ -170,6 +149,9 @@ ul li{
  
 }
 @media screen and (min-width:310px) and (max-width:426px) {
+  .home{
+    overflow: hidden;
+  }
   .education  div p{
     font-size: 16px;
     width: 100%;
@@ -192,12 +174,11 @@ ul li{
   .intro-content p:nth-child(1){
     position: fixed;
     right: 28%;
-    bottom: 15%;
+    bottom: 12%;
   }
   .intro-content{
-    position :absolute;
-    bottom: 10%;
-    /* left: 0; */
+    position :fixed;
+    bottom: 7%;
     right: 10%;
 
   }

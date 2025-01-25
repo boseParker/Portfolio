@@ -25,7 +25,7 @@ function Contact(){
             "service_6mmby36",
             "template_9olspdn",
             mailDetails,
-            "O2Vfe8EwGMMUoWXZ6"
+            "ADhzEto5z8cu1GojCqqKF"
         )
         .then(
             (result)=>{
@@ -35,6 +35,7 @@ function Contact(){
             (error) => {
                 alert("Failed to send message. Please try again.");
                 console.log(error.text);
+
               }
         )
         
@@ -78,7 +79,7 @@ function Contact(){
                     
                       <div className="client-data d-flex flex-column">
                             <label htmlFor="message">Message </label>
-                            <input type="text" required value={mailDetails.message} name="message" id="message" onChange={handleDeatils} autoComplete="off"/>
+                            <textarea type="text" required value={mailDetails.message} name="message" id="message" onChange={handleDeatils} autoComplete="off"/>
                       </div>
                       <br/>  
                       <div className="sendbtn">

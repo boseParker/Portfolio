@@ -27,20 +27,20 @@ function About(){
             <div className="about  mt-3" id="about">
                 <h2>About</h2>
               
-                 <p>I'm a passionate Web Developer skilled in crafting responsive and user-friendly websites. I specialize in HTML, CSS, JavaScript, and Python Fullstack development, creating projects that combine functionality with modern design. Always eager to learn and grow, I aim to build impactful digital experiences.</p>
+                 <p>I'm a passionate Web Developer skilled in crafting responsive and user-friendly websites. I specialize in HTML, CSS, JavaScript, and Python Fullstack development, creating projects that combine functionality with modern design. Always eager to learn and grow,  aim to build impactful digital experiences.</p>
             <div className="about-my-details container pt-5 ">
                     <h3 className="pb-5">Web Developer</h3>
                 <div className="personal-detalis d-flex flex-wrap align-items-center justify-content-around justify-content-sm-start gap-5 ">
                   
                     <div className="about-my-img" >
-                        <img src={fullimage} width="290px" height="450px"  alt="" style={{borderRadius:"50%"}}/>
+                        <img src={fullimage} width="290px" height="450px"  alt="fullImage" style={{borderRadius:"50%"}}/>
                     </div>
                   
                      
                         
                         <div className="set-2 d-flex flex-column gap-3 fs-4">
                             <li><i className="bi bi-chevron-right "></i><strong>Degree:</strong> <span>Bachelor of Computer Science</span></li>
-                            <li><i className="bi bi-chevron-right "></i><strong>Email:</strong> <span>bosemuthu01@gamil.com</span></li>
+                            <li><i className="bi bi-chevron-right "></i><strong>Email:</strong> <span>bosemuthu01@gmail.com</span></li>
                             <li><i className="bi bi-chevron-right "></i><strong>Freelance:</strong> <span>Available</span></li>
                             <li><i className="bi bi-chevron-right "></i><strong>City:</strong> <span>Namakkal,Tamilnadu</span></li>
                         </div>
@@ -87,7 +87,7 @@ function About(){
                 <div>
                         <img src={ReactImg} height={"200px"} width={"200px"} alt='reactJs'/>
                     </div>
-                   <p className="d-flex justify-content-between"><span>REACT</span></p>
+                   <p className="d-flex justify-content-between"><span>REACT JS</span></p>
                    
                 </div>
                 <div className="skill d-flex flex-column align-items-center ">

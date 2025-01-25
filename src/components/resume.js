@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../../src/images/resume.pdf'
 import Navbar1 from './navbar'
 import Navbar from './navbar3'
 const Resume = () => {
@@ -29,6 +30,12 @@ const Resume = () => {
                 <p>Full Stack Development(Python)</p>
                 <p>Edex Tech ,Coimbatore</p>
             </div>
+            </section>
+            <section>
+                <p className='resume-title'>Resume</p>
+                <div className='resume-body d-flex flex-column ms-sm-5 '>
+                <p><a href={resume} download="Bose_Resume" rel='alternate' className='text-light' >Resume Download <span><i className="bi bi-arrow-down-circle"></i></span></a></p>
+                 </div>
             </section>
          </section>
    
