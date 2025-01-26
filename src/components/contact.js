@@ -25,7 +25,7 @@ function Contact(){
             "service_6mmby36",
             "template_9olspdn",
             mailDetails,
-            "ADhzEto5z8cu1GojCqqKF"
+            "tgW-em4zurhvfU4UR"
         )
         .then(
             (result)=>{

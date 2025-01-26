@@ -28,7 +28,7 @@ body{
   margin-top: 2.5rem;
 }
 .intro-content {
-  position: absolute;
+  position: fixed;
   right:10%
  }
 .img-container{
@@ -54,10 +54,10 @@ h2::after{
   left: 0%;
 
 }
-
-.skills{
-  width: 50vw;
-  height: 15px;
+.skill:hover{
+  box-shadow: 12px 13px 3px grey;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 /* Resume  */
 .resume-title{
